@@ -1,0 +1,19 @@
+.btn {
+  height: 50px;
+  width: 80px;
+  color: gold;
+  background-color: blueviolet;
+  border: 1 black groove;
+  border-radius: 1000px;
+  font-weight: bolder;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.animation {
+  box-shadow: 5px 5px 10px 5px green;
+  opacity: 0.8;
+}

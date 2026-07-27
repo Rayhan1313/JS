@@ -1,0 +1,9 @@
+.outer {
+  background-color: yellowgreen;
+  padding: 15px;
+}
+.inner {
+  background-color: red;
+  padding: 15px;
+  margin-top: 20px;
+}

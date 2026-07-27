@@ -1,0 +1,39 @@
+div .first,
+.second,
+.third {
+  background-color: red;
+  color: green;
+  /* display: inline-block; */
+  /* margin: 20px; */
+  padding: 20px;
+  line-height: 10px;
+  border: 2px inset goldenrod;
+}
+
+input {
+  padding: 10px;
+  border: 1px inset greenyellow;
+  border-radius: 1000px;
+  background-color: aqua;
+}
+
+select {
+  width: 140px;
+  height: 30px;
+}
+
+div .first:hover,
+input:hover {
+  border: 2px solid dotted black;
+  font-weight: bolder;
+
+  /* letter-spacing: 3px; */
+}
+
+table,
+th,
+td {
+  background-color: brown;
+  border: 1px inset sandybrown;
+  border-collapse: collapse;
+}

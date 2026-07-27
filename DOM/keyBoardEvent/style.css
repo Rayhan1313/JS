@@ -1,0 +1,14 @@
+#myTextArea {
+  resize: none;
+}
+#myTextArea:focus {
+  border: px solid red;
+}
+
+.red {
+  border: px solid red;
+}
+
+.green {
+  border: px solid green;
+}

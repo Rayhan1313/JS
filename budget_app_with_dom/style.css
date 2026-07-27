@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 20px;
+  background-color: #121212;
+
+  margin: 0px 50px;
+  padding: 50px 0px;
+  border-radius: 20px;
+  height: 500vh;
+}
+
+.div b {
+  font-size: 50px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+#headIcon {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.form {
+  margin-top: 30px;
+  border: 1px solid #00e5ff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.field {
+  display: grid;
+  grid-template-columns: 360px 300px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.field label {
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-style: italic;
+  color: #00e5ff;
+}
+
+.field input {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 1000px;
+  padding-left: 15px;
+}
+
+.field button {
+  width: 300px;
+  height: 30px;
+  border: none;
+  background-color: #4caf50;
+  font-size: 20px;
+  border-radius: 1000px;
+  opacity: 0.8;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+#startBudgeting {
+  margin-left: 360px;
+}
+.field button:hover {
+  opacity: 1;
+  /* color: white; */
+}
+
+.buttonRow {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.buttonRow button {
+  width: 170px;
+  height: 34px;
+  border: none;
+  background-color: #4caf50;
+  font-size: 18px;
+  border-radius: 1000px;
+  opacity: 0.8;
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.field button:focus {
+  background-color: yellow;
+  opacity: 1;
+  color: green;
+  padding: 5px;
+}
+
+#expenseContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Chrome, Edge, Brave, Opera */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+p {
+  color: #f3f3f3;
+}
+
+table {
+  margin-top: 50px;
+  border: 1px solid #00e5ff;
+  color: white;
+  text-align: left;
+  vertical-align: center;
+  border-radius: 1000px;
+}
+tr,
+th,
+td {
+  border: 1px dashed #00e5ff;
+  /* border-radius: 1000px; */
+}
+
+th {
+  font-weight: bolder;
+}
+
+table,
+tr,
+th,
+td {
+  border-radius: 1000px;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+tr:hover {
+  background-color: green;
+  color: yellow;
+  cursor: pointer;
+}

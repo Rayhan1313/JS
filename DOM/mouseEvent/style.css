@@ -1,0 +1,26 @@
+div {
+  height: 250px;
+  width: 400px;
+  background-color: salmon;
+  border: 1px double black;
+  /* color: tomato; */
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  margin-top: 10%;
+  margin-left: 40%;
+  text-align: left;
+  padding-left: 30px;
+  text-shadow: 1px 1px 2px black;
+  text-wrap: wrap;
+
+  /* align-content: center; */
+}
+
+.btn {
+  color: white;
+  background-color: black;
+  padding: 5px;
+  margin-right: 5px;
+  border: none;
+}

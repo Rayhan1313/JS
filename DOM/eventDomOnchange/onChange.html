@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="onChange.css" />
+    <title>On Click</title>
+  </head>
+  <body>
+    <div>
+      <div class="first">
+        <label for="name"
+          >User Name :
+          <input type="text" name="fName" id="fName" class="fName" id="fName" />
+        </label>
+      </div>
+
+      <div class="second">
+        <label for="languages">Programming Languages: </label>
+
+        <input type="checkbox" name="checkbox" id="" value="JS" /> JS
+        <input type="checkbox" name="checkbox" id="" value="Java" />JAVA
+      </div>
+
+      <div class="third">
+        <label for="department"
+          >Department:
+          <select name="department" id="department">
+            <option value="empty">--------</option>
+            <option value="cse">CSE</option>
+            <option value="eee">EEE</option>
+            <option value="bba">BBA</option>
+          </select>
+        </label>
+      </div>
+
+      
+        
+    </div>
+
+    <table>
+          <tr>
+            <th>Sl</th>
+            <th>User Name</th>
+            <th>Programming Languages</th>
+            <th>Department</th>
+            <tr>
+              <td id="one"></td>
+              <td id="two"></td>
+              <td id="three"></td>
+              <td id="four"></td>
+            </tr>
+          </tr>
+        </table>
+      
+    <script src="onChange.js"></script>
+  </body>
+</html>

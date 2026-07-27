@@ -1,0 +1,40 @@
+{
+  "student": [
+    {
+      "name": "Rayhan",
+      "middleName": "Al",
+      "age": 28,
+      "cGpa": 3.37,
+      "isRegistered": true,
+      "language": ["Bengali", "English", "Hindi"],
+      "friends": [
+        {
+          "name": "Tisha",
+          "age": 27
+        },
+        {
+          "name": "mahin",
+          "age": 29
+        }
+      ]
+    },
+    {
+      "name": "Tisha",
+      "middleName": "Islam",
+      "age": 27,
+      "cGpa": 3.99,
+      "isRegistered": true,
+      "language": ["Bengali", "English", "Hindi"],
+      "friends": [
+        {
+          "name": "Rayhan",
+          "age": 28
+        },
+        {
+          "name": "Simin",
+          "age": 27
+        }
+      ]
+    }
+  ]
+}

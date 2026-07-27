@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Budget App</title>
+  </head>
+  <body>
+    <h1>
+      <img
+        src="../img/bar-graph.png"
+        alt=""
+        srcset=""
+        height="25px"
+        width="25px"
+      />
+      <b style="font-size: 35px">Budget Tracking App</b>
+    </h1>
+
+    <label for="usrName">User Name :</label>
+    <input type="text" id="usrName" name="usrName" /> <br />
+    <br />
+    <label for="income">Enter Income: </label>
+    <input type="number" name="income" id="income" /> <br />
+    <br />
+    <label for="expenseQty">Enter Expense QTY: </label>
+    <input type="number" name="expenseQty" id="expenseQty" />
+    <br /><br />
+    <button type="button" id="startBudgeting">Start Budgeting</button><br />
+    <div id="expenseList"></div>
+
+    <button type="button" id="calculateBudget" style="display: none">
+      Calcualte Budget
+    </button>
+    <button type="button" id="reset" style="display: none">Reset Budget</button>
+    <div class="result" id="budgetResult"></div>
+    <script src="index.js"></script>
+  </body>
+</html>

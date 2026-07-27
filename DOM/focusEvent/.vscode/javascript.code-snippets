@@ -1,0 +1,17 @@
+{
+  "Console log": {
+    "prefix": "cl",
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "body": [
+      "console.log($1);"
+    ],
+    "description": "Insert console.log()"
+  },
+  "Document querySelector": {
+    "prefix": "dqs",
+    "body": [
+      "let ${1:name} = document.querySelector('${2:selector}');"
+    ],
+    "description": "Insert let ... = document.querySelector()"
+  }
+}

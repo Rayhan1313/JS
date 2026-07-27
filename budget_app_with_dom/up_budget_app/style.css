@@ -1,0 +1,17 @@
+body {
+  margin: 0 auto;
+  width: 50%;
+}
+
+button {
+  font-size: 15px;
+}
+
+#reset {
+  margin-left: 40px;
+}
+
+.trackExpense {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}

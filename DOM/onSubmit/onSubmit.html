@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="onSubmit.css" />
+    <title>On Submit</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="name"
+          >UserName :
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            autofocus
+            autocomplete="current-user"
+          />
+        </label>
+      </div>
+      <div>
+        <label for="email"
+          >Email :
+          <input type="email" name="email" id="email" required size="25" />
+        </label>
+      </div>
+      <div>
+        <label for="password"
+          >Password :
+          <input
+            type="password"
+            name="password"
+            id="password"
+            minlength="4"
+            maxlength="8"
+            autocomplete="current-password"
+          />
+        </label>
+      </div>
+      <div>
+        <input type="submit" value="submit" />
+      </div>
+    </form>
+
+    <script src="onSubmit.js"></script>
+  </body>
+</html>
